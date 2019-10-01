@@ -1,0 +1,37 @@
+
+.header{
+    width: 100%;
+    background-color:#18d26e;
+
+}
+a.nav-link, a.dropdown-item:hover ,li.nav-item.dropdown.show a.nav-link.dropdown-toggle {
+    color: white;
+    background-color:#18d26e ;
+    text-decoration: none;
+    
+}
+a.nav-link:hover{
+    color: #18d26e;
+    font-weight: bold;
+    background-color:#daf6e9;
+}
+.card-img-top {
+    height: 210px;
+    width: 350px;
+    margin: 0 auto;
+}
+.cont{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+}
+.card-deck{
+    margin: 5px auto;
+}
+.nav-link-dossier{
+    color: #18d26e;
+    font-weight: bold;
+    background-color:#daf6e9;
+
+}

@@ -1,0 +1,226 @@
+.img{
+    width: 100%;
+
+    background-image: url('../img/121211193118-large.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.imgLogin {
+    width: 300px;
+}
+
+#logo
+{
+
+   padding: 20px 30px 0px 30px;
+    margin-bottom: 30px;
+}
+
+.bt{
+    margin: auto;
+    width: 300px;
+}
+.btn
+{
+    margin-top: 30px;
+    width: 100%;
+}
+/*Don't forget to add Font Awesome CSS : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"*/
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+input[type="password"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+
+    outline: none;
+    padding: 8px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+input[type="text"]:focus {
+    border-color: #18d26e;
+    box-shadow: 0 0 8px 0 #18d26e;
+}
+input[type="password"]:focus {
+    border-color: #18d26e;
+    box-shadow: 0 0 8px 0 #18d26e;
+}
+*
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+
+.inputWithIcon input[type="passsword"] {
+    padding-left: 40px;
+}
+.inputWithIcon {
+    position: relative;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+    color: #18d26e;
+}
+.inputWithIcon input[type="password"]:focus + i {
+    color: #18d26e;
+}
+.inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: #18d26e;
+}
+.inputWithIcon.inputIconBg input[type="password"]:focus + i {
+    color: #fff;
+    background-color: #18d26e;
+}
+
+header {
+    position: relative;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    width: 330px;
+}
+
+.hide {
+    display: none;
+}
+
+.tab-content {
+    padding:25px;
+}
+
+#material-tabs {
+    position: relative;
+    display: block;
+    padding:0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px
+}
+
+#material-tabs>a {
+    position: relative;
+    display:inline-block;
+    text-decoration: none;
+    padding: 27px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #424f5a;
+    text-align: center;
+
+}
+
+#material-tabs>a.active {
+    font-weight: 700;
+    outline:none;
+}
+
+#material-tabs>a:not(.active):hover {
+    background-color: inherit;
+    color: #7c848a;
+}
+
+
+@media only screen and (max-width: 520px) {
+    .nav-tabs#material-tabs>li>a {
+        font-size: 11px;
+    }
+}
+
+
+.yellow-bar {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    height: 3px;
+    background:#18d26e;
+    display: block;
+    left: 0;
+    transition: left .2s ease;
+    -webkit-transition: left .2s ease;
+}
+
+#tab1-tab.active ~ span.yellow-bar {
+    left: 0;
+    width: 160px;
+}
+
+#tab2-tab.active ~ span.yellow-bar {
+    left:165px;
+    width:160px;
+}
+.title
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.cu-se
+{
+    position: relative;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.sub{
+    background-color:#18d26e ;
+    border-color: #18d26e
+}
+.sub:hover{
+    background-color:#18d26e;
+    border-color: #18d26e
+}
+.cu-se select {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #aaa;
+}
+
+
+a.lien1{
+    color:black;
+
+}
+
+a.lien1:Hover
+{
+    text-decoration: none;
+    color: #68d29c;
+}
+.error{
+    margin: auto;
+    width: 300px;
+}
